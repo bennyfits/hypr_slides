@@ -1,0 +1,19 @@
+{
+  "name": "Battle.net",
+  "selector": "select((.class==\"steam_app_default\") and (.title==\"Battle.net\"))",
+  "position": {
+      "home": {
+        "x": 1950,
+        "y": -1000
+      },
+      "active":{
+        "x": 1950,
+        "y": 50
+      }
+  },
+  "size": {
+    "width": 1860,
+    "height": 1000
+  },
+  "command": "gtk-launch net.lutris.battlenet-1.desktop"
+}
