@@ -1,19 +1,10 @@
 {
   "name": "Steam",
   "selector": "select((.class==\"steam\") and (.title==\"Steam\"))",
-  "position": {
-      "home": {
-        "x": 1950,
-        "y": -1000
-      },
-      "active":{
-        "x": 1950,
-        "y": 50
-      }
-  },
-  "size": {
-    "width": 1860,
-    "height": 1000
-  },
+  "from": [ 30, -1100 ],
+  "to": [ 30, 50 ],
+  "monitor": 1,
+  "width": 1860,
+  "height": 1000,
   "command": "steam"
 }

@@ -1,0 +1,9 @@
+{
+  "name": "Waypaper",
+  "selector": "select(.class==\"waypaper\")",
+  "from": [ 560, -600 ],
+  "to": [ 560, 50 ],
+  "width": 800,
+  "height": 500,
+  "command": "waypaper"
+}

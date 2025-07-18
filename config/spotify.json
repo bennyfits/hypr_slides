@@ -1,19 +1,9 @@
 {
   "name": "Spotify",
-  "selector": "select((.class==\"Spotify\"))",
-  "position": {
-      "home": {
-        "x": 1950,
-        "y": -1100
-      },
-      "active":{
-        "x": 1950,
-        "y": 50
-      }
-  },
-  "size": {
-    "width": 1860,
-    "height": 1000
-  },
+  "selector":  "select((.class==\"Spotify\"))",
+  "from": [ 30, -1100 ],
+  "to": [ 30, 50 ],
+  "width": 1860,
+  "height": 1000,
   "command": "spotify-launcher"
 }
